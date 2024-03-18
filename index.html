@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logoipsm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <!--   ⭐🖌️ navbar ⭐🖌️   -->
+            <nav class="navbar-main bg-dark-1">
+              <div class="nav__logo d-flex align-items-center">
+                <img src="./assets/icons/logo.svg" alt="logo" />
+                <h2 class="t-wh">Logo</h2>
+              </div>
+              <ul class="nav__links">
+                <li class="nav__link --active">
+                  <img src="./assets/icons/element-3.svg" alt="Overview" />
+                  <a href="/">Overview</a>
+                </li>
+                <li class="nav__link">
+                  <img src="./assets/icons/slice.svg" alt="Chart" />
+                  <a href="/">Chart</a>
+                </li>
+                <li class="nav__link">
+                  <img src="./assets/icons/wallet-2.svg" alt="Transactions" />
+                  <a href="/">Transactions</a>
+                </li>
+                <li class="nav__link">
+                  <img src="./assets/icons/wallet-minus.svg" alt="Wallet" />
+                  <a href="/">Wallet</a>
+                </li>
+                <li class="nav__link">
+                  <img src="./assets/icons/sms.svg" alt="Mail" />
+                  <a href="/">Mail Box</a>
+                </li>
+                <div class="nav__links__bottom">
+                  <li class="nav__link">
+                    <img src="./assets/icons/setting-2.svg" alt="Setting" />
+                    <a href="/">Setting</a>
+                  </li>
+                  <li class="nav__link">
+                    <img src="./assets/icons/logout.svg" alt="Logout" />
+                    <a href="/">Logout</a>
+                  </li>
+                </div>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-10">
+            <div class="dashboard__main">
+              <!--   ⭐🖌️ Dashboard ⭐🖌️   -->
+              <div class="dashboard__header d-flex align-items-center">
+                <h2 class="dashboard__heading t-wh">Dashboard</h2>
+                <div class="dashboard__search">
+                  <input
+                    type="search"
+                    id="search"
+                    class="search__input rounded"
+                    placeholder="Search..."
+                  />
+                  <img
+                    src="./assets/icons/search-normal.svg"
+                    alt="search"
+                    class="search__icon"
+                  />
+                </div>
+                <div
+                  class="dashboard__notifiction d-flex align-items-center justify-content-center"
+                >
+                  <img
+                    src="./assets/icons/notification.svg"
+                    alt="notifiction"
+                    class="notifiction__icon"
+                  />
+                </div>
+                <div class="dashboard__auth d-flex align-items-center">
+                  <div class="auth__img">
+                    <img
+                      src="./assets/images/Photo.png"
+                      alt="logo"
+                      class="notifiction__icon"
+                    />
+                  </div>
+                  <p class="auth__name">Courtney Henry</p>
+                  <img
+                    src="./assets/icons/arrow-down-gr.svg"
+                    alt="arrow"
+                    class="notifiction__icon"
+                  />
+                </div>
+              </div>
+              <div class="dashboard__coins__row d-flex align-items-center">
+                <div class="dashboard__coin__card">
+                  <div class="coin__card__top">
+                    <div class="coin__img">
+                      <img
+                        src="./assets/icons/bitcoin-(btc).svg"
+                        alt="bitcoin"
+                        class="notifiction__icon"
+                      />
+                    </div>
+                    <div class="coin__name">
+                      <h3 class="coin__name-1">Bitcoinz</h3>
+                      <p class="coin__name-2">BTC</p>
+                    </div>
+                    <img
+                      src="./assets/icons/arrow-up.svg"
+                      alt="arrow"
+                      class="notifiction__icon"
+                    />
+                  </div>
+                  <div class="coin__card__bottom">
+                    <div class="coin__left">
+                      <p class="coin__static-1">$52,291</p>
+                      <p class="coin__static-2">+0.25%</p>
+                    </div>
+                    <div class="coin__img__graph">
+                      <img
+                        src="./assets/icons/graph.svg"
+                        alt="grapgh"
+                        class="notifiction__icon"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="dashboard__coin__card">
+                  <div class="coin__card__top">
+                    <div class="coin__img">
+                      <img
+                        src="./assets/icons/litecoin(ltc).svg"
+                        alt="Litecoin"
+                        class="notifiction__icon"
+                      />
+                    </div>
+                    <div class="coin__name">
+                      <h3 class="coin__name-1">Litecoin</h3>
+                      <p class="coin__name-2">ITC</p>
+                    </div>
+                    <img
+                      src="./assets/icons/arrow-up.svg"
+                      alt="arrow"
+                      class="notifiction__icon"
+                    />
+                  </div>
+                  <div class="coin__card__bottom">
+                    <div class="coin__left">
+                      <p class="coin__static-1">$8,291</p>
+                      <p class="coin__static-2">+0.25%</p>
+                    </div>
+                    <div class="coin__img__graph">
+                      <img
+                        src="./assets/icons/graph.svg"
+                        alt="grapgh"
+                        class="notifiction__icon"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="dashboard__coin__card">
+                  <div class="coin__card__top">
+                    <div class="coin__img">
+                      <img
+                        src="./assets/icons/ethereum-(eth).svg"
+                        alt="Ethereum"
+                        class="notifiction__icon"
+                      />
+                    </div>
+                    <div class="coin__name">
+                      <h3 class="coin__name-1">Ethereum</h3>
+                      <p class="coin__name-2">ETH</p>
+                    </div>
+                    <img
+                      src="./assets/icons/arrow-up.svg"
+                      alt="arrow"
+                      class="notifiction__icon"
+                    />
+                  </div>
+                  <div class="coin__card__bottom">
+                    <div class="coin__left">
+                      <p class="coin__static-1">$28,291</p>
+                      <p class="coin__static-2">+0.25%</p>
+                    </div>
+                    <div class="coin__img__graph">
+                      <img
+                        src="./assets/icons/graph.svg"
+                        alt="grapgh"
+                        class="notifiction__icon"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="dashboard__coin__card">
+                  <div class="coin__card__top">
+                    <div class="coin__img">
+                      <img
+                        src="./assets/icons/solana-(sol).svg"
+                        alt="Solana"
+                        class="notifiction__icon"
+                      />
+                    </div>
+                    <div class="coin__name">
+                      <h3 class="coin__name-1">Solana</h3>
+                      <p class="coin__name-2">SOL</p>
+                    </div>
+                    <img
+                      src="./assets/icons/arrow-down.svg"
+                      alt="arrow"
+                      class="notifiction__icon"
+                    />
+                  </div>
+                  <div class="coin__card__bottom">
+                    <div class="coin__left">
+                      <p class="coin__static-1">$14,291</p>
+                      <p class="coin__static-2">+0.25%</p>
+                    </div>
+                    <div class="coin__img__graph">
+                      <img
+                        src="./assets/icons/graph-2.svg"
+                        alt="grapgh"
+                        class="notifiction__icon"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="dashboard__left-box">
+                  <div class="dashboard__credit-card">
+                    <img
+                      src="./assets/images/Master Card.png"
+                      alt="credit-card"
+                    />
+                  </div>
+                  <div class="dashboard__auth__portoflio">
+                    <div class="portoflio__header">
+                      <h2 class="portfolio__heading t-wh">My Portfolio</h2>
+                    </div>
+                    <div class="portfolio__coin__card">
+                      <div class="coin__right">
+                        <img
+                          src="./assets/icons/ethereum-(eth).svg"
+                          alt="Ethereum"
+                          class="notifiction__icon"
+                        />
+                      </div>
+                      <div class="coin__med">
+                        <h3 class="coin__name">Ethereum</h3>
+                        <p class="coin__total">$52,291</p>
+                      </div>
+                      <div class="coin__left">
+                        <p class="coin__static --red">+0.25%</p>
+                        <p class="coin__balance">$52,291</p>
+                      </div>
+                    </div>
+                    <div class="portfolio__coin__card">
+                      <div class="coin__right">
+                        <img
+                          src="./assets/icons/bitcoin-(btc).svg"
+                          alt="bitcoin"
+                          class="notifiction__icon"
+                        />
+                      </div>
+                      <div class="coin__med">
+                        <h3 class="coin__name">Bitcoin</h3>
+                        <p class="coin__total">$52,291</p>
+                      </div>
+                      <div class="coin__left">
+                        <p class="coin__static --red">+0.25%</p>
+                        <p class="coin__balance">$52,291</p>
+                      </div>
+                    </div>
+                    <div class="portfolio__coin__card">
+                      <div class="coin__right">
+                        <img
+                          src="./assets/icons/litecoin(ltc).svg"
+                          alt="Litecoin"
+                          class="notifiction__icon"
+                        />
+                      </div>
+                      <div class="coin__med">
+                        <h3 class="coin__name">Litecoin</h3>
+                        <p class="coin__total">$52,291</p>
+                      </div>
+                      <div class="coin__left">
+                        <p class="coin__static --green">+0.25%</p>
+                        <p class="coin__balance">$52,291</p>
+                      </div>
+                    </div>
+                    <div class="portfolio__coin__card">
+                      <div class="coin__right">
+                        <img
+                          src="./assets/icons/solana-(sol).svg"
+                          alt="solana"
+                          class="notifiction__icon"
+                        />
+                      </div>
+                      <div class="coin__med">
+                        <h3 class="coin__name">Solana</h3>
+                        <p class="coin__total">$52,291</p>
+                      </div>
+                      <div class="coin__left">
+                        <p class="coin__static --red">+0.25%</p>
+                        <p class="coin__balance">$52,291</p>
+                      </div>
+                    </div>
+                    <div class="portfolio__coin__card">
+                      <div class="coin__right">
+                        <img
+                          src="./assets/icons/binance-coin-(bnb).svg"
+                          alt="binance"
+                          class="notifiction__icon"
+                        />
+                      </div>
+                      <div class="coin__med">
+                        <h3 class="coin__name">Binance Coin</h3>
+                        <p class="coin__total">$52,291</p>
+                      </div>
+                      <div class="coin__left">
+                        <p class="coin__static --green">+0.25%</p>
+                        <p class="coin__balance">$52,291</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="dashboard__right-box">
+                  <div class="dashboard__chart">
+                    <div class="chart__header d-flex align-items-center">
+                      <h2 class="chart__heading t-wh">Chart</h2>
+                      <div class="chart__btns">
+                        <button class="setting__btn">
+                          <img src="./assets/icons/candle.svg" alt="candle" />
+                        </button>
+                        <button class="setting__btn --currency">
+                          <img
+                            src="./assets/icons/dollar-circle.svg"
+                            alt="candle"
+                          />
+                          <span>USD</span>
+                          <img src="./assets/icons/arrow-down-gr.svg" />
+                        </button>
+                      </div>
+                    </div>
+                    <div class="chart__select d-flex align-items-center">
+                      <div class="select__left">
+                        <div class="selected__item">
+                          <p class="selected__coin">Bitcoin/BTC</p>
+                          <img
+                            src="./assets/icons/arrow-down-gr.svg"
+                            alt="arrow"
+                            class="select__arrow"
+                          />
+                        </div>
+                        <p class="coin__total">$35,352.02</p>
+                      </div>
+                      <div class="select__right d-flex align-items-center">
+                        <div class="hours__tag --active">1h</div>
+                        <div class="hours__tag">3h</div>
+                        <div class="hours__tag">1d</div>
+                        <div class="hours__tag">1w</div>
+                        <div class="hours__tag">1m</div>
+                      </div>
+                    </div>
+                    <div class="chart__modified">
+                      <img src="./assets/images/chart.png" alt="chart" />
+                    </div>
+                  </div>
+                  <div class="dashboard__market">
+                    <div class="market__header d-flex align-items-center">
+                      <h2 class="market__heading t-wh">Live Market</h2>
+                      <div class="market__btns">
+                        <button class="setting__btn">View More</button>
+                      </div>
+                    </div>
+                    <div class="market__table">
+                      <table>
+                        <tr>
+                          <th class="t-h">coin</th>
+                          <th class="t-h">Change</th>
+                          <th class="t-h">Martket Cap</th>
+                          <th class="t-h">24h Volume</th>
+                          <th class="t-h">Price</th>
+                        </tr>
+                        <tr>
+                          <td class="t-d-img">
+                            <div class="coin__name">
+                              <img
+                                src="./assets/icons/bitcoin-(btc).svg"
+                                alt="bitcoin"
+                              />
+                              <p>Bitcoin</p>
+                            </div>
+                          </td>
+                          <td class="t-d --green">+12.00%</td>
+                          <td class="t-d">+12.00%</td>
+                          <td class="t-d">+12.00%</td>
+                          <td class="t-d">+12.00%</td>
+                          <td class="t-d">....</td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
